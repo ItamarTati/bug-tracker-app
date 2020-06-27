@@ -1,0 +1,6 @@
+CREATE DATABASE bugs;
+
+CREATE TABLE bug(
+  bug_id SERIAL PRIMARY KEY,
+  description VARCHAR(255)
+);
